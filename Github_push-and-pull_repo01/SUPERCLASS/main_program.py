@@ -1,10 +1,11 @@
 from cultivator import Cultivator
 from subclass_1 import SwordCultivator
-
+from subclass_2 import AlchemistCultivator
 # ---- MAIN PROGRAM ----
 def main():
     sect = [
         SwordCultivator("Lin Feng"),
+        AlchemistCultivator("Zhao Yun"),
     ]
 
     for c in sect:
